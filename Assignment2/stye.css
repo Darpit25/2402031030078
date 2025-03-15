@@ -1,1 +1,566 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #121a26;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #1b242f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-left a, .nav-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: flex-end; /* Moves content to the bottom */
+    padding: 50px;
+}
+
+/* Background Image */
+.hero img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Dark Text Box */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark, semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px; /* Controls text width */
+    color: white;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #008c9e;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #121a26;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #1b242f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-left a, .nav-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+/* Background Image */
+.hero img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Dark Text Box */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+}
+
+/* CTA Button */
+.cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #00bcd4;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #008c9e;
+}
+
+/* Our Mission Section */
+.mission {
+    background-color: #1b242f;
+    padding: 80px 15%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.mission-content {
+    max-width: 800px;
+}
+
+.mission h2 span {
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mission p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+}
+/* Our Mission Section - Full HD (1920x1080) */
+.mission {
+    background-color: #1b242f;
+    width: 100%;
+    height: 1080px; /* Set height to Full HD */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mission-content {
+    max-width: 800px;
+}
+
+.mission h2 span {
+    color: #00bcd4;
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+}
+/* Transformative Learning Section */
+.learning {
+    background-color: #1b242f;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.learning h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.learning p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.learning-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #00bcd4;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+/* Courses Section */
+.courses {
+    background-color: #1b242f;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.courses h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.course-card {
+    background-color: #00bcd4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.course-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.course-card button {
+    background-color: #1b242f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.course-card button:hover {
+    background-color: #008c9e;
+}
+/* How It Works Section */
+.how-it-works {
+    background-color: #1b242f;
+    color: white;
+    text-align: left;
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.how-it-works h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.step-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.step-content h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.step-content p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+}
+/* Fullscreen Get Started Section */
+.get-started {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121a26;
+}
+
+/* Background Image */
+.background-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+}
+
+/* Form Container */
+.form-container {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 340px;
+    width: 90%;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Headings */
+.form-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+}
+
+/* Google Sign-In Button */
+.google-signin {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.google-signin img {
+    width: 16px;
+}
+
+.google-signin:hover {
+    background-color: #444;
+}
+
+/* Divider */
+.divider {
+    margin: 15px 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Signup Button */
+.email-signup {
+    width: 100%;
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.email-signup:hover {
+    background-color: #008c9e;
+}
+
+/* Terms and Privacy */
+.terms {
+    margin-top: 10px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.terms a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+.contact {
+    text-align: center;
+    background-color: #12171e; /* Dark theme background */
+    color: white;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form input {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #00a9b7; /* Matching button color */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #008a99;
+}
 
